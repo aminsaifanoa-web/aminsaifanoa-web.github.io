@@ -224,6 +224,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   margin-top: 30px; max-width: min(620px, calc(100vw - 44px)); margin-inline: auto;
 }
 .hero-center > p em { font-size: 15px; }
+.hero-center > p a { color: var(--accent); text-decoration: underline; text-decoration-color: var(--ink-faint); text-underline-offset: 4px; }
+.hero-center > p a:hover { color: var(--ink); text-decoration-color: var(--accent); }
 .round-button {
   display: inline-flex; align-items: center; gap: 22px;
   margin-top: 26px; padding: 8px 9px 8px 22px;

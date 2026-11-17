@@ -48,3 +48,5 @@ Run `npm ci` and `npm run build`. To publish a new version, copy `out/*` and `.n
 
 - Project inquiry buttons go to both `realaminsaifan@gmail.com` and `aminsaifan@gmail.com`, except Illustra, which retains its own external action. The displayed name is Amin Saifan.
 - The wire is a single vertical rail; target cards highlight as the rail reaches them.
+
+- Landing copy invites people with shared goals to email both inquiry recipients.

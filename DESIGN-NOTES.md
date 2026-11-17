@@ -344,3 +344,8 @@ Pursuit of the Matrix").
 - Added dual-recipient “Ask me about it” links to all project and experience cards except Illustra. Existing project links remain available.
 - Changed displayed name to Amin Saifan.
 - Removed the wire's horizontal branches. The vertical cyan rail now passes through the page, with its nodes and the current project card lighting as the reader scrolls.
+
+## Revision round 17 — landing introduction
+
+- Expanded the landing copy to describe co-founding Illustra, work across economics, law, and data science, interest in technology's potential to extend human capability, and the ambition to build ideas that reshape how we live and work.
+- Added an inline email invitation for visitors with shared goals; it addresses both inquiry recipients.
