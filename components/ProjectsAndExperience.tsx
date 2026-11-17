@@ -68,10 +68,10 @@ export default function ProjectsAndExperience() {
           <div className="project-file-top"><span>RECOGNITION / RECORD</span><span className="project-status">VERIFIED FACTS</span></div>
           <h3 id="accolades-title">Accolades</h3>
           <ul className="accolades-list">
-            <li><span>CP Tanner Academic Scholar</span></li>
+            <li><span>CP Tanner Academic Scholarship</span></li>
             <li><span>$5,000 grant</span><b>Carbon finance research</b></li>
             <li><span>Cambridge Startup Competition</span><b>3rd place</b></li>
-            <li><span>BPHO Computational Physics</span><b>Gold</b></li>
+            <li><span>British Physics Olympiad (BPhO) Computational Challenge</span><b>Gold</b></li>
             <li><span>SAT</span><b>1530</b></li>
             <li><span>Published author</span><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5510499" target="_blank" rel="noopener noreferrer">SSRN ↗</a></li>
           </ul>

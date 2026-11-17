@@ -24,7 +24,7 @@ export const VENTURES: Venture[] = [
     status: "Out in the world",
     hook: "Structured reasoning, not passive recall.",
     description: "An AI-native learning system I co-founded. Notes, uploaded materials and flashcards work together, with on-device AI that adapts to exam boards, expands explanations, fact-checks work, and connects related ideas offline.",
-    chips: ["EdTech", "On-device AI", "Co-founder · CTO"],
+    chips: ["EdTech", "On-device AI", "Product Research and Development Lead, Co-Founder"],
     action: { label: "Visit Illustra ↗", href: "https://www.illustraedu.com", external: true },
     story: {
       title: "Behind the build",
@@ -44,16 +44,16 @@ export const VENTURES: Venture[] = [
     title: "APRIL",
     status: "Research",
     hook: "Carbon data, verification, and finance.",
-    description: "APRIL is my carbon finance research project. Its field-verified pilot covered four carbon plots and documented a timeline moving from six months to 18 days.",
+    description: "APRIL is my carbon finance research project. Its field-verified work covered 3 pilot sequestration sites.",
     chips: ["Carbon finance", "Research", "Field pilot"],
     story: {
       title: "About the project",
       paragraphs: [
-        "APRIL examines how carbon-project data and verification connect to finance. The pilot used four carbon plots. Project notes record a six-month-to-18-day timeline and describe the work as field verified.",
+        "APRIL examines how carbon-project data and verification connect to finance across 3 pilot sequestration sites.",
         "The research received a $5,000 grant for carbon finance research.",
       ],
     },
-    meta: ["Four carbon plots", "Field-verified pilot"],
+    meta: ["3 pilot sequestration sites", "Field-verified pilot"],
   },
   {
     id: "glasses",
@@ -73,7 +73,7 @@ export const VENTURES: Venture[] = [
     title: "Humanized Computing",
     status: "Exploring",
     hook: "Human perception as part of the compute stack.",
-    description: "Exploring systems that use human perception, judgment, and decision-making as part of the compute infrastructure when machine compute is limited or costly. One example is a gamified interface through which people guide drone swarms.",
+    description: "A drone-swarm control game designed in a 3D virtual simulator on Unity. Human operators control groups of drones, benchmarking execution performance and cost against AI- and vision-model-driven autonomous drones across search-and-rescue tasks and obstacle-course navigation.",
     chips: ["Human-in-the-loop computing", "Distributed cognition", "Drone swarms"],
     meta: ["Human-guided systems", "Compute-aware infrastructure"],
   },

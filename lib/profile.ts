@@ -8,7 +8,7 @@ export const PROFILE = {
   /** Hero title, split across two lines like a poster. */
   nameLines: ["Amin", "Saifan"],
   /** Eyebrow line above the hero name. */
-  headline: "Arts & Sciences — Quantitative & Applied Economics @ UCL",
+  headline: "UCL BASc — Quantitative & Applied Economics",
   /** The line under the name. */
   tagline: "Co-founder of Illustra, working across economics, law, and data science.",
   location: "London, UK",
@@ -29,10 +29,10 @@ export const PROFILE = {
   },
 
   /** Contact email used by the contact section and project inquiry links. */
-  email: "realaminsaifan@gmail.com",
+  email: "aminsaifanoa@gmail.com",
 } as const;
 
-export const INQUIRY_EMAILS = ["realaminsaifan@gmail.com", "aminsaifan@gmail.com"] as const;
+export const INQUIRY_EMAILS = ["realaminsaifan@gmail.com", "aminsaifan@gmail.com", "aminsaifanoa@gmail.com"] as const;
 
 export function inquiryMailto(subject: string) {
   return `mailto:${INQUIRY_EMAILS.join(",")}?subject=${encodeURIComponent(subject)}`;
