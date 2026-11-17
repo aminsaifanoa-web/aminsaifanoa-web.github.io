@@ -43,3 +43,5 @@ Run `npm ci` and `npm run build`. To publish a new version, copy `out/*` and `.n
 
 
 - Humanized Computing now covers human perception and judgment as general compute capacity; drone-swarm control is one example.
+
+- The About thesis now leads with “From 45% to 100%.” and explains the opportunity wearable displays create for more seamless interaction and greater human capability.

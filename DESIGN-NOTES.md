@@ -334,3 +334,7 @@ Pursuit of the Matrix").
 - Reframed Humanized Computing around people contributing perception, judgment, and decision-making as compute infrastructure when machine compute is limited or costly.
 - Kept gamified drone-swarm guidance as one example and updated the card hook and chips to reflect the broader idea.
 
+
+## Revision round 15 — 45% to 100% thesis
+
+- Set the largest thesis line to “From 45% to 100%.” and aligned the supporting paragraph with the user's wearable-computing argument: displays in the field of vision, low-value tasks outsourced to technology, more seamless digital interaction, and expanded human capability.

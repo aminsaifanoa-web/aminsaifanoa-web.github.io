@@ -10,8 +10,8 @@ export default function AboutAndPitch() {
 
         <article className="thesis-box" data-reveal aria-labelledby="thesis-title">
           <span className="thesis-tag">THE BIGGEST PROBLEM I SEE</span>
-          <h3 id="thesis-title">Bring computing into our field of vision, so technology expands what we can do in the world.</h3>
-          <p className="thesis-copy">The next great leap will move computing from a screen in our pocket into our field of vision. With information available in context while we look at the real world, technology can extend attention, memory, and action instead of pulling us away from them. The goal is a more capable human, with computing present where it helps.</p>
+          <h3 id="thesis-title">From 45% to 100%.</h3>
+          <p className="thesis-copy">Today, we spend roughly 45% of our time on screens; the only moments we are truly out of reach are when we sleep or shower. Wearable technology can close that gap by putting the display directly in front of our eyes. With information and interfaces always available, we can outsource low-value tasks and interact with the digital world more seamlessly. The result: faster economic growth and a new stage in how humans extend their own capabilities.</p>
         </article>
       </div>
     </section>
