@@ -1,0 +1,38 @@
+/**
+ * Single source of truth for everything personal on this site.
+ * Edit this one file — every section reads from it.
+ */
+
+export const PROFILE = {
+  name: "Amin Ali Saifan",
+  /** Hero title, split across two lines like a poster. */
+  nameLines: ["Amin Ali", "Saifan"],
+  wordmark: "amin",
+  /** Eyebrow line above the hero name. */
+  headline: "Arts & Sciences — Quantitative & Applied Economics @ UCL",
+  /** The line under the name. */
+  tagline: "Skydiver & podcaster with a love for technology.",
+  location: "London, UK",
+
+  /** Real links. */
+  linkedin: "https://www.linkedin.com/in/amin-s-7b10222a9/",
+  github: "https://github.com/aminsaifanoa-web",
+  website: "https://www.illustraedu.com",
+
+  /**
+   * The podcast. Paste the real feed/show URL into `url` (Spotify, Apple,
+   * YouTube, RSS — anything) and a "Listen ↗︎" link appears automatically
+   * in the Beyond section and in Contact. Leave "" and no link ships.
+   */
+  podcast: {
+    name: "In Pursuit of the Matrix",
+    url: "",
+  },
+
+  /**
+   * TODO(you): add your email — e.g. "amin@yourdomain.com".
+   * Leave it as "" and the email line, circle button and copy-email
+   * control are hidden automatically (no dead links ship).
+   */
+  email: "",
+} as const;
