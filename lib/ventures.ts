@@ -64,7 +64,6 @@ export const VENTURES: Venture[] = [
     hook: "A new layer for perception and personal security.",
     description: "A smart-glasses infrastructure combining facial analysis and augmented reality to support personal security—for example, surfacing potential threats and relevant context in the wearer’s field of view.",
     chips: ["Smart glasses", "Facial analysis", "Augmented reality"],
-    action: { label: "Ask me about it ↗", href: "mailto:realaminsaifan@gmail.com?subject=Outsourced%20Thinking" },
     meta: ["Wearable infrastructure", "Personal security concept"],
   },
   {

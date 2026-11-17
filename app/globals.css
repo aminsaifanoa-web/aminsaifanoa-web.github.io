@@ -511,6 +511,12 @@ main { position: relative; }
 }
 .project-file:hover,
 .accolades-file:hover { border-color: var(--accent); background: #060d0d; }
+.project-file.wire-active, .accolades-file.wire-active, .thesis-box.wire-active {
+  border-color: var(--accent);
+  background-color: rgba(110, 219, 212, 0.055);
+  box-shadow: 0 0 0 1px rgba(110, 219, 212, 0.18), 6px 6px 0 rgba(0, 0, 0, 0.48);
+}
+.project-file.wire-active .project-file-top, .accolades-file.wire-active .project-file-top { color: var(--ink); }
 .project-file-top {
   min-height: 22px;
   display: flex;

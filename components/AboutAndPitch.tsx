@@ -4,7 +4,7 @@ export default function AboutAndPitch() {
       <div className="about-body">
         <article className="about-copy" data-reveal>
           <span className="about-kicker">ABOUT ME</span>
-          <h2 id="about-title">Amin Ali Saifan</h2>
+          <h2 id="about-title">Amin Saifan</h2>
           <p>I&rsquo;m a first-year Arts &amp; Sciences student at UCL studying Quantitative &amp; Applied Economics. I co-founded Illustra, an AI-native learning system, and work across economics, mathematics, data science, and technology. I&rsquo;m interested in how people make decisions and how new tools change what they can do.</p>
         </article>
 

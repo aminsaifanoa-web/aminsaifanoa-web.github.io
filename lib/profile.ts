@@ -4,9 +4,9 @@
  */
 
 export const PROFILE = {
-  name: "Amin Ali Saifan",
+  name: "Amin Saifan",
   /** Hero title, split across two lines like a poster. */
-  nameLines: ["Amin Ali", "Saifan"],
+  nameLines: ["Amin", "Saifan"],
   /** Eyebrow line above the hero name. */
   headline: "Arts & Sciences — Quantitative & Applied Economics @ UCL",
   /** The line under the name. */
@@ -31,3 +31,9 @@ export const PROFILE = {
   /** Contact email used by the contact section and project inquiry links. */
   email: "realaminsaifan@gmail.com",
 } as const;
+
+export const INQUIRY_EMAILS = ["realaminsaifan@gmail.com", "aminsaifan@gmail.com"] as const;
+
+export function inquiryMailto(subject: string) {
+  return `mailto:${INQUIRY_EMAILS.join(",")}?subject=${encodeURIComponent(subject)}`;
+}

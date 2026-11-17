@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 import { VENTURES, type Venture } from "@/lib/ventures";
 import { DOSSIERS } from "@/lib/dossiers";
+import { inquiryMailto } from "@/lib/profile";
 
 function Story({ story }: { story: NonNullable<Venture["story"]> }) {
   return (
@@ -30,6 +31,7 @@ function VentureFile({ venture, index }: { venture: Venture; index: number }) {
         {venture.action && (
           <a className="project-action" href={venture.action.href} {...(venture.action.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>{venture.action.label}</a>
         )}
+        {venture.id !== "illustra" && <a className="project-action" href={inquiryMailto(venture.title)}>Ask me about it ↗</a>}
         {venture.story && <Story story={venture.story} />}
       </div>
       <div className="project-file-meta"><span>{venture.meta[0]}</span><span>{venture.meta[1]}</span></div>
@@ -56,6 +58,7 @@ export default function ProjectsAndExperience() {
             {dossier.items && <ul className="interest-list">{dossier.items.map((item) => <li key={item}>{item}</li>)}</ul>}
             <div className="project-file-actions">
               {dossier.link && <a className={`project-action ${dossier.link.dummy ? "is-dummy" : ""}`} href={dossier.link.href} {...(dossier.link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>{dossier.link.label}</a>}
+              <a className="project-action" href={inquiryMailto(dossier.title)}>Ask me about it ↗</a>
             </div>
             {dossier.note && <p className="project-note">{dossier.note}</p>}
           </article>

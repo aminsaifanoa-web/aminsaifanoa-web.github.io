@@ -338,3 +338,9 @@ Pursuit of the Matrix").
 ## Revision round 15 — 45% to 100% thesis
 
 - Set the largest thesis line to “From 45% to 100%.” and aligned the supporting paragraph with the user's wearable-computing argument: displays in the field of vision, low-value tasks outsourced to technology, more seamless digital interaction, and expanded human capability.
+
+## Revision round 16 — inquiry links, name, and vertical wire
+
+- Added dual-recipient “Ask me about it” links to all project and experience cards except Illustra. Existing project links remain available.
+- Changed displayed name to Amin Saifan.
+- Removed the wire's horizontal branches. The vertical cyan rail now passes through the page, with its nodes and the current project card lighting as the reader scrolls.

@@ -37,6 +37,5 @@ export const DOSSIERS: Dossier[] = [
     title: "Introduction to Utility Economics",
     body: "My own work on quantifying utility: developing a way to represent utility so it can be examined with economic and mathematical tools.",
     note: "A quantitative approach to utility.",
-    link: { label: "Ask me about it ↗", href: "mailto:realaminsaifan@gmail.com?subject=Introduction%20to%20Utility%20Economics" },
   },
 ];

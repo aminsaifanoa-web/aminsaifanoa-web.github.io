@@ -4,9 +4,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: `${PROFILE.name} — Founder and researcher`,
-  description: "Amin Ali Saifan: Arts & Sciences student at UCL, co-founder of Illustra, and researcher of markets, utility, and technology.",
+  description: "Amin Saifan: Arts & Sciences student at UCL, co-founder of Illustra, and researcher of markets, utility, and technology.",
   keywords: [
-    "Amin Ali Saifan",
+    "Amin Saifan",
     "Illustra",
     "APRIL carbon finance research",
     "Saifan–Laffineur Yield Model",

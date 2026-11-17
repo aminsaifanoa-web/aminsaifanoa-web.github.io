@@ -2,7 +2,7 @@
 
 ## Current state
 
-The Next.js 15 + TypeScript personal site for Amin Ali Saifan is deployed to GitHub Pages at https://aminsaifanoa-web.github.io/.
+The Next.js 15 + TypeScript personal site for Amin Saifan is deployed to GitHub Pages at https://aminsaifanoa-web.github.io/.
 
 - `main` contains the static export and `.nojekyll`.
 - `source` contains the complete Next.js source.
@@ -45,3 +45,6 @@ Run `npm ci` and `npm run build`. To publish a new version, copy `out/*` and `.n
 - Humanized Computing now covers human perception and judgment as general compute capacity; drone-swarm control is one example.
 
 - The About thesis now leads with “From 45% to 100%.” and explains the opportunity wearable displays create for more seamless interaction and greater human capability.
+
+- Project inquiry buttons go to both `realaminsaifan@gmail.com` and `aminsaifan@gmail.com`, except Illustra, which retains its own external action. The displayed name is Amin Saifan.
+- The wire is a single vertical rail; target cards highlight as the rail reaches them.
