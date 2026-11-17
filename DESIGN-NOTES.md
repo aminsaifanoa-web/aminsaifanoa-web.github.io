@@ -301,3 +301,9 @@ Pursuit of the Matrix").
 - Replaced the ornamental lowercase header mark with a plain title-case name; made the contact arrow an inline link and removed the wire's contact-node target.
 - Reduced hero, section heading, card, and contact scale and trimmed excess section spacing. Rebuilt the mobile layout rules for the simpler grid.
 - Kept the UI on a single Arial/Helvetica sans-serif stack. The decorative wire remains behind project content, with no node beside the contact links.
+
+## Revision round 10 — About and interests
+
+- Replaced the Skydiving dossier with an Interests card listing skydiving, paragliding, parasailing, stand-up comedy, and flight simulations.
+- Refined About into a concise personal blurb and a forward-looking statement on moving computation from a pocket screen into the field of vision.
+- Removed the old 45% to 100% screen-time framing and styled About as a quiet two-column layout that stacks cleanly on mobile.

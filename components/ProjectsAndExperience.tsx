@@ -52,11 +52,12 @@ export default function ProjectsAndExperience() {
           <article className="project-file dossier-file" key={dossier.id} data-reveal>
             <div className="project-file-top"><span>{dossier.label}</span><span className="project-status">PERSONAL FILE</span></div>
             <h3>{dossier.title}</h3>
-            <p className="project-description">{dossier.body}</p>
+            {dossier.body && <p className="project-description">{dossier.body}</p>}
+            {dossier.items && <ul className="interest-list">{dossier.items.map((item) => <li key={item}>{item}</li>)}</ul>}
             <div className="project-file-actions">
               {dossier.link && <a className={`project-action ${dossier.link.dummy ? "is-dummy" : ""}`} href={dossier.link.href} {...(dossier.link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>{dossier.link.label}</a>}
             </div>
-            <p className="project-note">{dossier.note}</p>
+            {dossier.note && <p className="project-note">{dossier.note}</p>}
           </article>
         ))}
 

@@ -257,76 +257,55 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
    ABOUT
    ============================================================ */
 .about {
-  display: flex; flex-direction: column; gap: 56px;
-  width: min(1100px, calc(100% - 2 * var(--gutter)));
-  margin: auto; padding: 108px 0 92px;
-}
-.about-profile { display: flex; flex-direction: column; align-items: center; gap: 22px; }
-.about-card {
-  width: 188px; height: 222px;
-  background: #05130c; border: 1px solid rgba(0, 255, 65, 0.4);
-  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.6);
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 16px; text-align: center; padding: 24px 16px 20px;
-}
-.about-card-face { font-size: 62px; font-weight: 650; letter-spacing: -0.06em; line-height: 1; }
-.about-card-sub { font-size: 7px; letter-spacing: 1.4px; font-weight: 600; color: var(--ink-soft); text-transform: uppercase; max-width: 120px; line-height: 1.7; }
-.ucl-badge {
-  display: block; width: 188px; text-align: center;
-  background: var(--deep); color: var(--cream);
-  padding: 15px 18px;
-  font-size: 9px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
-  box-shadow: 5px 6px 0 rgba(0, 0, 0, 0.6);
-  transition: background 0.25s;
-}
-.ucl-badge:hover { transform: rotate(0deg) translateY(-3px); background: #0a3f22; }
-.dossier-head h2 {
-  font-size: clamp(48px, 5.5vw, 68px); letter-spacing: -0.055em;
-  font-weight: 550; line-height: 1.02; margin: 6px 0 0;
-}
-.about-copy p { font-size: 14px; line-height: 1.8; color: var(--ink-soft); margin-top: 17px; max-width: 640px; }
-.about-copy p strong { color: var(--ink); font-weight: 600; }
-.about-copy .text-link { margin-top: 25px; }
-/* ---------- dossier head + thesis (merged About / Pitch) ---------- */
-.dossier-head {
-  display: flex; flex-direction: column; gap: 10px;
-}
-.dossier-label {
-  font-family: var(--font-sans);
-  font-size: 8px; letter-spacing: 2px; font-weight: 700; text-transform: uppercase;
-  color: var(--accent);
-  border: 1px solid var(--accent); padding: 6px 10px; display: inline-block;
-}
-.dossier-line {
-  font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-soft);
-  margin-top: 4px;
+  width: min(1120px, calc(100% - 2 * var(--gutter)));
+  margin: auto;
+  padding: 104px 0 88px;
 }
 .about-body {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: start;
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+  gap: clamp(40px, 7vw, 92px);
+  align-items: start;
 }
-.about-copy p { font-size: 14px; line-height: 1.8; color: var(--ink-soft); margin-top: 17px; max-width: 640px; }
-.about-copy p strong { color: var(--ink); font-weight: 600; }
-.about-copy .text-link { margin-top: 25px; }
-
-.thesis-box {
-  border: 1.5px solid var(--line); box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.6);
-  padding: 34px 40px; display: flex; flex-direction: column; gap: 14px;
-}
-.thesis-tag {
-  font-family: var(--font-sans);
-  font-size: 8px; letter-spacing: 2px; font-weight: 700; text-transform: uppercase;
+.about-copy { padding-top: 8px; }
+.about-kicker, .thesis-tag {
   color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.about-copy h2 {
+  margin: 17px 0 22px;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: clamp(34px, 4vw, 48px);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+.about-copy p, .thesis-copy {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.8;
+}
+.thesis-box {
+  border: 1px solid var(--line);
+  padding: clamp(26px, 4vw, 42px);
 }
 .thesis-box h3 {
-  font-size: clamp(30px, 4vw, 44px); line-height: 1.05; font-weight: 600;
-  letter-spacing: -0.04em; color: var(--ink);
+  margin: 20px 0 18px;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: clamp(32px, 4.2vw, 52px);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
 }
-.thesis-box h3 em { color: var(--accent); font-style: italic; }
-.thesis-box h3 strong { color: var(--accent); }
-.thesis-copy {
-  font-size: 13px; line-height: 1.7; color: var(--ink-soft); margin: 0;
-}
-
 /* ============================================================
    CONTACT
    ============================================================ */
@@ -429,19 +408,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .section-head > p { font-size: 13px; margin-top: 14px; }
   .eyebrow { font-size: 8px; }
 
-  .about { width: calc(100% - 40px); padding: 58px 0 52px; gap: 28px; }
-  .about-profile { flex-direction: row; align-items: center; gap: 12px; margin-bottom: 18px; }
-  .about-card { width: 96px; height: 112px; padding: 10px; gap: 8px; }
-  .about-card-face { font-size: 32px; }
-  .about-card-sub { font-size: 5px; max-width: 72px; }
-  .ucl-badge { width: 140px; padding: 12px 10px; font-size: 8px; }
-  .dossier-head h2 { font-size: clamp(36px, 9vw, 48px); }
-  .dossier-label { font-size: 7px; }
-  .dossier-line { font-size: 9px; }
+  .about { width: calc(100% - 40px); padding: 62px 0 54px; }
   .about-body { grid-template-columns: 1fr; gap: 28px; }
-  .about-copy p { font-size: 13px; }
-  .thesis-box { padding: 22px; }
-  .thesis-box h3 { font-size: clamp(28px, 7vw, 38px); }
+  .about-copy h2 { font-size: clamp(34px, 9vw, 46px); }
+  .about-copy p, .thesis-copy { font-size: 14px; }
+  .thesis-box { padding: 24px 20px; }
+  .thesis-box h3 { font-size: clamp(30px, 8vw, 40px); }
 
   .projects-section { padding: 58px 0 48px; }
   .experience-grid { width: calc(100% - 40px); grid-template-columns: 1fr; gap: 14px; margin-top: 28px; }
@@ -604,3 +576,4 @@ main { position: relative; }
   .project-file-meta { flex-wrap: wrap; }
   .project-file-meta > * { flex: 1 1 130px; }
 }
+.interest-list { display: grid; gap: 8px; list-style: none; margin: 18px 0 0; padding: 0; color: var(--ink-soft); font-size: 13px; line-height: 1.55; }

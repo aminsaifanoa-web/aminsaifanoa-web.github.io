@@ -1,26 +1,24 @@
-import { PROFILE } from "@/lib/profile";
-
 export interface Dossier {
   id: string;
   label: string;
   title: string;
-  body: string;
-  note: string;
+  body?: string;
+  items?: string[];
+  note?: string;
   link?: { label: string; href: string; external?: boolean; dummy?: boolean };
 }
 
 export const DOSSIERS: Dossier[] = [
   {
-    id: "skydiving",
-    label: "01 / PERSONAL",
-    title: "Skydiving",
-    body: "A perspective that rewards preparation, calm, and attention to the conditions around you.",
-    note: "Preparation matters before the jump.",
+    id: "interests",
+    label: "01 / INTERESTS",
+    title: "Interests",
+    items: ["Skydiving", "Paragliding", "Parasailing", "Stand-up comedy", "Flight simulations"],
   },
   {
     id: "podcast",
     label: "02 / PODCAST",
-    title: PROFILE.podcast.name,
+    title: "Pursuit of 100",
     body: "A podcast about extending human capability and the technologies that could take us there.",
     note: "Ideas pushed to their limits.",
     link: { label: "Listen ↗", href: "#", dummy: true },
