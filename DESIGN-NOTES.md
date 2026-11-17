@@ -307,3 +307,9 @@ Pursuit of the Matrix").
 - Replaced the Skydiving dossier with an Interests card listing skydiving, paragliding, parasailing, stand-up comedy, and flight simulations.
 - Refined About into a concise personal blurb and a forward-looking statement on moving computation from a pocket screen into the field of vision.
 - Removed the old 45% to 100% screen-time framing and styled About as a quiet two-column layout that stacks cleanly on mobile.
+
+## Revision round 11 — landing copy
+
+- Replaced the hero's skydiver/podcaster tagline and casual invitation with copy aligned to About: Illustra, economics, mathematics, data science, technology, and decision-making.
+- Updated the page title to use the site's founder and researcher framing.
+

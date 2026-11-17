@@ -10,7 +10,7 @@ export default function Hero() {
           <span>{PROFILE.nameLines[0]}</span>
           <span>{PROFILE.nameLines[1]}</span>
         </h1>
-        <p><em>{PROFILE.tagline}</em><br />Founder at Illustra, working across economics, mathematics, data science, and technology. Say hello if you&rsquo;d like to build something.</p>
+        <p>{PROFILE.tagline} I&rsquo;m interested in how people make decisions and how new tools change what they can do.</p>
         <a className="round-button" href="#projects">See projects and experience <span aria-hidden="true">↓</span></a>
       </div>
       <div className="hero-foot">

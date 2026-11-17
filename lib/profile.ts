@@ -10,7 +10,7 @@ export const PROFILE = {
   /** Eyebrow line above the hero name. */
   headline: "Arts & Sciences — Quantitative & Applied Economics @ UCL",
   /** The line under the name. */
-  tagline: "Skydiver & podcaster with a love for technology.",
+  tagline: "Co-founder of Illustra, working across economics, mathematics, data science, and technology.",
   location: "London, UK",
 
   /** Real links. */
