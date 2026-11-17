@@ -10,8 +10,8 @@ export default function AboutAndPitch() {
 
         <article className="thesis-box" data-reveal aria-labelledby="thesis-title">
           <span className="thesis-tag">THE BIGGEST PROBLEM I SEE</span>
-          <h3 id="thesis-title">From a screen in our pocket to a computer in our field of vision.</h3>
-          <p className="thesis-copy">The biggest jump in innovation will come when computing leaves the screen in our pocket and becomes a layer in our field of vision: ready when we look, while the world stays in view. That shift could change how we learn, work, and communicate.</p>
+          <h3 id="thesis-title">Bring computing into our field of vision, so technology expands what we can do in the world.</h3>
+          <p className="thesis-copy">The next great leap will move computing from a screen in our pocket into our field of vision. With information available in context while we look at the real world, technology can extend attention, memory, and action instead of pulling us away from them. The goal is a more capable human, with computing present where it helps.</p>
         </article>
       </div>
     </section>

@@ -19,7 +19,7 @@ export const DOSSIERS: Dossier[] = [
     id: "podcast",
     label: "02 / PODCAST",
     title: "Pursuit of 100",
-    body: "A podcast about extending human capability and the technologies that could take us there.",
+    body: "A podcast exploring the roadblocks that hold humanity back from evolving—and the ideas and technologies that could help us move forward.",
     note: "Ideas pushed to their limits.",
     link: { label: "Listen ↗", href: "#", dummy: true },
   },
@@ -37,5 +37,6 @@ export const DOSSIERS: Dossier[] = [
     title: "Introduction to Utility Economics",
     body: "My own work on quantifying utility: developing a way to represent utility so it can be examined with economic and mathematical tools.",
     note: "A quantitative approach to utility.",
+    link: { label: "Ask me about it ↗", href: "mailto:realaminsaifan@gmail.com?subject=Introduction%20to%20Utility%20Economics" },
   },
 ];

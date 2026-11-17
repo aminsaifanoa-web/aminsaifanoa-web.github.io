@@ -1,4 +1,4 @@
-﻿/** Venture cards — factual descriptions and project notes. */
+/** Venture cards — factual descriptions and project notes. */
 
 export interface Venture {
   id: string;
@@ -58,25 +58,24 @@ export const VENTURES: Venture[] = [
   {
     id: "glasses",
     no: "03",
-    tag: "SELF-SAFETY",
-    title: "Smart glasses",
+    tag: "WEARABLE COMPUTING",
+    title: "Outsourced Thinking",
     status: "Exploring",
-    hook: "A hands-free safety alert when it matters.",
-    description: "A wearable-computing concept using face recognition to alert the wearer to a potential danger, without first reaching for a phone.",
-    chips: ["Wearable computing", "Face recognition", "Self-safety"],
-    action: { label: "Ask me about it ↗", href: "#contact" },
-    meta: ["AI-native wearables", "Safety alert concept"],
+    hook: "A new layer for perception and personal security.",
+    description: "A smart-glasses infrastructure combining facial analysis and augmented reality to support personal security—for example, surfacing potential threats and relevant context in the wearer’s field of view.",
+    chips: ["Smart glasses", "Facial analysis", "Augmented reality"],
+    action: { label: "Ask me about it ↗", href: "mailto:realaminsaifan@gmail.com?subject=Outsourced%20Thinking" },
+    meta: ["Wearable infrastructure", "Personal security concept"],
   },
   {
-    id: "robotics",
+    id: "humanized-computing",
     no: "04",
-    tag: "MACHINES THAT SENSE",
-    title: "Robotics & sensor fusion",
-    status: "Early research",
-    hook: "Many sensors, one working picture.",
-    description: "Research into distributed sensing and sensor fusion: combining data from low-cost sensors to build a shared model of physical space and extend human perception.",
-    chips: ["Distributed sensing", "Humanoid robotics", "Sensor fusion"],
-    action: { label: "Ask me about it ↗", href: "#contact" },
-    meta: ["Many sensors → one model", "Research and prototyping"],
+    tag: "HUMANIZED COMPUTING",
+    title: "Humanized Computing",
+    status: "Exploring",
+    hook: "People in the control loop for drone swarms.",
+    description: "Exploring infrastructure for human-guided drone swarms: people direct groups of drones through a gamified interface, complementing onboard compute where capability or cost is a constraint.",
+    chips: ["Human-computer interaction", "Drone swarms", "Gamified control"],
+    meta: ["Human-guided systems", "Compute-aware infrastructure"],
   },
 ];

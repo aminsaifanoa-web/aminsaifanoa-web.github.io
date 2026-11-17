@@ -313,3 +313,12 @@ Pursuit of the Matrix").
 - Replaced the hero's skydiver/podcaster tagline and casual invitation with copy aligned to About: Illustra, economics, mathematics, data science, technology, and decision-making.
 - Updated the page title to use the site's founder and researcher framing.
 
+
+## Revision round 12 — project concepts and contact
+
+- Renamed Smart glasses to Outsourced Thinking and updated the concept to facial analysis and augmented reality for personal security.
+- Replaced Robotics & sensor fusion with Humanized Computing, focused on people guiding drone swarms through a gamified interface where onboard compute is limited or costly.
+- Repositioned Pursuit of 100 around the roadblocks that hold humanity back from evolving.
+- Added email inquiry links for Outsourced Thinking and Introduction to Utility Economics, using the supplied contact address.
+- Reframed the About thesis as an affirmative opportunity: computing in the field of vision can extend human attention, memory, and action.
+

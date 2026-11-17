@@ -28,10 +28,6 @@ export const PROFILE = {
     url: "",
   },
 
-  /**
-   * TODO(you): add your email — e.g. "amin@yourdomain.com".
-   * Leave it as "" and the email line, circle button and copy-email
-   * control are hidden automatically (no dead links ship).
-   */
-  email: "",
+  /** Contact email used by the contact section and project inquiry links. */
+  email: "realaminsaifan@gmail.com",
 } as const;

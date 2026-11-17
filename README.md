@@ -1,4 +1,4 @@
-﻿# amin-site
+# amin-site
 
 Personal site for Amin Ali Saifan, built with Next.js 15, TypeScript, and React.
 The site uses a phosphor-green-on-black dossier design and exports as static files for GitHub Pages.
@@ -15,7 +15,7 @@ npm run build
 
 ## Content
 
-- `lib/profile.ts` holds the profile details and links. Email and podcast URL remain blank until Amin supplies them.
+- `lib/profile.ts` holds the profile details and links. The podcast URL remains blank until Amin supplies it.
 - `lib/ventures.ts` holds the three venture cards and their expandable stories.
 - `lib/dossiers.ts` holds the personal project notes and links.
 
