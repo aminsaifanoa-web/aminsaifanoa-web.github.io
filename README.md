@@ -1,6 +1,6 @@
 # amin-site
 
-Personal site for Amin Ali Saifan, built with Next.js 15, TypeScript, and React.
+Personal site for Amin Saifan, built with Next.js 15, TypeScript, and React.
 The site uses a phosphor-green-on-black dossier design and exports as static files for GitHub Pages.
 
 ## Develop
