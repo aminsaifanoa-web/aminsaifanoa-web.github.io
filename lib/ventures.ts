@@ -73,9 +73,9 @@ export const VENTURES: Venture[] = [
     tag: "HUMANIZED COMPUTING",
     title: "Humanized Computing",
     status: "Exploring",
-    hook: "People in the control loop for drone swarms.",
-    description: "Exploring infrastructure for human-guided drone swarms: people direct groups of drones through a gamified interface, complementing onboard compute where capability or cost is a constraint.",
-    chips: ["Human-computer interaction", "Drone swarms", "Gamified control"],
+    hook: "Human perception as part of the compute stack.",
+    description: "Exploring systems that use human perception, judgment, and decision-making as part of the compute infrastructure when machine compute is limited or costly. One example is a gamified interface through which people guide drone swarms.",
+    chips: ["Human-in-the-loop computing", "Distributed cognition", "Drone swarms"],
     meta: ["Human-guided systems", "Compute-aware infrastructure"],
   },
 ];

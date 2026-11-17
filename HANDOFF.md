@@ -34,10 +34,12 @@ Run `npm ci` and `npm run build`. To publish a new version, copy `out/*` and `.n
 ## Latest content update
 
 - Renamed smart glasses to Outsourced Thinking and described its smart-glasses infrastructure for facial analysis, augmented reality, and personal security.
-- Replaced Robotics & sensor fusion with Humanized Computing: human-guided drone swarms through a gamified interface, with human input complementing constrained or costly onboard compute.
+- Replaced Robotics & sensor fusion with Humanized Computing: a broader exploration of using human perception and judgment as part of compute infrastructure, with gamified drone-swarm control as one example.
 - Reframed Pursuit of 100 around roadblocks to humanity's evolution.
 - Added Ask me about it mailto actions to Outsourced Thinking and Introduction to Utility Economics; set the contact address to realaminsaifan@gmail.com.
 - Recast the screen-to-vision thesis as a positive, human-centered opportunity.
 
 - The interface accent is now cockpit cyan / blue-green on blue-black instead of phosphor green.
 
+
+- Humanized Computing now covers human perception and judgment as general compute capacity; drone-swarm control is one example.

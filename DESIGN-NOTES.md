@@ -328,3 +328,9 @@ Pursuit of the Matrix").
 - Replaced the phosphor green accent with a restrained cockpit cyan / blue-green palette across the interface, wire, controls, scrollbar, and icon.
 - Shifted the dark background tones toward blue-black and kept pale cyan text for contrast.
 
+
+## Revision round 14 — broaden Humanized Computing
+
+- Reframed Humanized Computing around people contributing perception, judgment, and decision-making as compute infrastructure when machine compute is limited or costly.
+- Kept gamified drone-swarm guidance as one example and updated the card hook and chips to reflect the broader idea.
+
