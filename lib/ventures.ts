@@ -44,16 +44,16 @@ export const VENTURES: Venture[] = [
     title: "APRIL",
     status: "Research",
     hook: "Carbon data, verification, and finance.",
-    description: "APRIL is my carbon finance research project. Its field-verified work covered 3 pilot sequestration sites.",
+    description: "APRIL is my carbon finance research project. Its field-verified work covered 3 sites.",
     chips: ["Carbon finance", "Research", "Field pilot"],
     story: {
       title: "About the project",
       paragraphs: [
-        "APRIL examines how carbon-project data and verification connect to finance across 3 pilot sequestration sites.",
+        "APRIL examines how carbon-project data and verification connect to finance across 3 sites.",
         "The research received a $5,000 grant for carbon finance research.",
       ],
     },
-    meta: ["3 pilot sequestration sites", "Field-verified pilot"],
+    meta: ["3 sites", "Field-verified pilot"],
   },
   {
     id: "glasses",
