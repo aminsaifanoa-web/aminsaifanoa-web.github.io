@@ -15,7 +15,7 @@ export default function Contact() {
           <a href={PROFILE.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a>
           {PROFILE.email && <a href={mailto as string}>Email ↗</a>}
           {PROFILE.podcast.url && <a href={PROFILE.podcast.url} target="_blank" rel="noopener noreferrer">{PROFILE.podcast.name} ↗</a>}
-          {PROFILE.email && <CopyEmailButton email="realaminsaifan@gmail.com" />}
+          {PROFILE.email && <CopyEmailButton email="aminsaifan@gmail.com" />}
         </nav>
       </div>
       <div className="footer"><span>© {year} {PROFILE.name.toUpperCase()}</span><a href="#top">Back to top ↑</a></div>
