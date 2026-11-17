@@ -1,4 +1,4 @@
-﻿import type { CSSProperties } from "react";
+import type { CSSProperties } from "react";
 import { VENTURES, type Venture } from "@/lib/ventures";
 import { DOSSIERS } from "@/lib/dossiers";
 
@@ -41,9 +41,9 @@ export default function ProjectsAndExperience() {
   return (
     <section className="projects-section" id="projects" aria-labelledby="projects-title">
       <header className="section-head" data-reveal>
-        <span className="eyebrow">SELECTED WORK / PERSONAL RECORD</span>
+        <span className="eyebrow">SELECTED PROJECTS / RESEARCH / EXPERIENCE</span>
         <h2 id="projects-title">Projects and<br /><em>experience.</em></h2>
-        <p>A working file of things built, researched, and kept in motion.</p>
+        <p>Projects I have built, research I have developed, and work still in progress.</p>
       </header>
 
       <div className="experience-grid">
@@ -65,6 +65,7 @@ export default function ProjectsAndExperience() {
           <h3 id="accolades-title">Accolades</h3>
           <ul className="accolades-list">
             <li><span>CP Tanner Academic Scholar</span></li>
+            <li><span>$5,000 grant</span><b>Carbon finance research</b></li>
             <li><span>Cambridge Startup Competition</span><b>3rd place</b></li>
             <li><span>BPHO Computational Physics</span><b>Gold</b></li>
             <li><span>SAT</span><b>1530</b></li>

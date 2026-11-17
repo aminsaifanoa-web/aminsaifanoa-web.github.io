@@ -7,7 +7,6 @@ export const PROFILE = {
   name: "Amin Ali Saifan",
   /** Hero title, split across two lines like a poster. */
   nameLines: ["Amin Ali", "Saifan"],
-  wordmark: "amin",
   /** Eyebrow line above the hero name. */
   headline: "Arts & Sciences — Quantitative & Applied Economics @ UCL",
   /** The line under the name. */
@@ -22,10 +21,10 @@ export const PROFILE = {
   /**
    * The podcast. Paste the real feed/show URL into `url` (Spotify, Apple,
    * YouTube, RSS — anything) and a "Listen ↗︎" link appears automatically
-   * in the Beyond section and in Contact. Leave "" and no link ships.
+   * in Projects and Experience and in Contact. Leave "" and no link ships.
    */
   podcast: {
-    name: "In Pursuit of the Matrix",
+    name: "Pursuit of 100",
     url: "",
   },
 

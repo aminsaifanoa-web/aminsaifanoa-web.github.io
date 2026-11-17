@@ -1,39 +1,32 @@
-import type { Metadata, Viewport } from "next";
-import { GeistSans } from "geist/font/sans";
+﻿import type { Metadata, Viewport } from "next";
 import { PROFILE } from "@/lib/profile";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Amin Ali Saifan — Skydiver & podcaster with a love for technology",
-  description:
-    "Amin Ali Saifan: Arts & Sciences student at UCL, co-founder of Illustra, and researcher of markets, mathematics and technology.",
+  title: `${PROFILE.name} — Skydiver, researcher, and founder`,
+  description: "Amin Ali Saifan: Arts & Sciences student at UCL, co-founder of Illustra, and researcher of markets, utility, and technology.",
   keywords: [
     "Amin Ali Saifan",
     "Illustra",
+    "APRIL carbon finance research",
     "Saifan–Laffineur Yield Model",
     "SLYM",
-    "In Pursuit of the Matrix",
+    "Pursuit of 100",
     "UCL",
-    "economics",
     "quantitative research",
   ],
   openGraph: {
-    title: "Amin Ali Saifan — Skydiver & podcaster with a love for technology",
-    description:
-      "Amin Ali Saifan: Arts & Sciences student at UCL, co-founder of Illustra, and researcher of markets, mathematics and technology.",
+    title: `${PROFILE.name} — Projects and research`,
+    description: "Founder at Illustra. Arts & Sciences at UCL. Research across economics, mathematics, data science, and technology.",
     type: "website",
   },
 };
 
-export const viewport: Viewport = {
-  themeColor: "#020705",
-};
+export const viewport: Viewport = { themeColor: "#020705" };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={GeistSans.variable}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

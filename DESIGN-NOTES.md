@@ -286,3 +286,11 @@ Pursuit of the Matrix").
 - Removed the hero margin notes and the About, venture, and footer doodles. Kept the content and typography accessible, with visible focus states and reduced-motion behavior.
 - Updated navigation and the hero action to `#projects`; rebuilt the wire targets across the about card, all eight project/experience cards, and contact.
 - Enabled Next.js static export with trailing slashes for the profile GitHub Pages domain. The export is written to `out/`.
+
+# Revision round 8 — research, APRIL, and typography
+
+- Renamed the podcast to “Pursuit of 100” and removed the My life curve card.
+- Replaced the Utility Economics dossier with two Research cards: the Saifan–Laffineur Yield Model (SLYM) and Introduction to Utility Economics, described as Amin’s own work on quantifying utility.
+- Added APRIL to the project grid. The supplied project notes describe it as carbon finance research involving four carbon plots and a field-verified six-month-to-18-day timeline. Added the user-provided $5,000 research grant to the accolades list and APRIL story.
+- Replaced the lower-case “amin” brand with Amin Ali Saifan and consolidated the interface typography on Arial/Helvetica sans-serif. Removed the separate Geist and Georgia display treatments; the digital-rain glyph canvas keeps its monospace rendering for alignment.
+- Simplified the About and hero copy to keep the tone direct.

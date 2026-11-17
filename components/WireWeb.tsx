@@ -1,9 +1,9 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useRef } from "react";
 
 const TARGET_SELECTORS = [".about .about-card", ".project-file", ".contact .contact-bottom"];
-const NODE_COUNT = 10;
+const NODE_COUNT = 11;
 const SAMPLE_STEP = 4;
 
 export default function WireWeb() {

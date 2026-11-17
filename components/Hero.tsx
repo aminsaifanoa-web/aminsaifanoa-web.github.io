@@ -12,10 +12,7 @@ export default function Hero() {
           <span><DecryptText text={PROFILE.nameLines[0]} stagger={38} delay={250} /></span>
           <span><DecryptText text={PROFILE.nameLines[1]} stagger={38} delay={500} /></span>
         </h1>
-        <p>
-          <em>{PROFILE.tagline}</em><br />
-          Founder at Illustra — working where economics, mathematics, data science and technology overlap. Say hello if you&rsquo;d like to build something. I answer faster than is reasonable.
-        </p>
+        <p><em>{PROFILE.tagline}</em><br />Founder at Illustra, working across economics, mathematics, data science, and technology. Say hello if you&rsquo;d like to build something.</p>
         <a className="round-button" href="#projects">See projects and experience <span aria-hidden="true">↓</span></a>
       </div>
       <div className="hero-foot">
