@@ -1,4 +1,4 @@
-﻿import type { Metadata, Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 import { PROFILE } from "@/lib/profile";
 import "./globals.css";
 

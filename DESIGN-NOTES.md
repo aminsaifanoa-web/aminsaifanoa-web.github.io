@@ -294,3 +294,10 @@ Pursuit of the Matrix").
 - Added APRIL to the project grid. The supplied project notes describe it as carbon finance research involving four carbon plots and a field-verified six-month-to-18-day timeline. Added the user-provided $5,000 research grant to the accolades list and APRIL story.
 - Replaced the lower-case “amin” brand with Amin Ali Saifan and consolidated the interface typography on Arial/Helvetica sans-serif. Removed the separate Geist and Georgia display treatments; the digital-rain glyph canvas keeps its monospace rendering for alignment.
 - Simplified the About and hero copy to keep the tone direct.
+
+# Revision round 9 — simplified visual system
+
+- Removed MatrixRain, the decode animation, CRT sweep, scanline overlay, and phosphor text shadows. The hero now uses a subtle geometric grid and crosshair.
+- Replaced the ornamental lowercase header mark with a plain title-case name; made the contact arrow an inline link and removed the wire's contact-node target.
+- Reduced hero, section heading, card, and contact scale and trimmed excess section spacing. Rebuilt the mobile layout rules for the simpler grid.
+- Kept the UI on a single Arial/Helvetica sans-serif stack. The decorative wire remains behind project content, with no node beside the contact links.

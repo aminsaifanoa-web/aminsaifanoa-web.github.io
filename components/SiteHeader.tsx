@@ -1,4 +1,4 @@
-﻿import { PROFILE } from "@/lib/profile";
+import { PROFILE } from "@/lib/profile";
 
 const NAV = [
   { href: "#about", label: "About" },

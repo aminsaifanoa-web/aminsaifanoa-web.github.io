@@ -1,4 +1,4 @@
-﻿# amin-site handoff
+# amin-site handoff
 
 ## Current state
 
@@ -10,13 +10,12 @@ The Next.js 15 + TypeScript personal site for Amin Ali Saifan is deployed to Git
 
 ## Site structure
 
-- Matrix hero with digital rain, text decode, scanlines, and one-shot CRT sweep.
+- Direct typographic hero over a quiet geometric grid; no matrix rain, text decode, or scanline overlay.
 - Combined About and Pitch section, including the 45% to 100% screen-time thesis.
-- One Projects and Experience grid with Illustra, APRIL, smart glasses, robotics and sensor fusion, personal cards, two Research cards (SLYM and Introduction to Utility Economics), and the accolades list.
+- One Projects and Experience grid with Illustra, APRIL, smart glasses, robotics and sensor fusion, personal cards, two Research cards, and the accolades list.
 - APRIL is carbon finance research. Project notes describe its four-plot pilot and six-month-to-18-day timeline; the accolades include a $5,000 grant for carbon finance research.
 - Podcast title: “Pursuit of 100.”
-- Scroll-driven wire targets the About card, all project and experience cards, and contact.
-- Sharp corners, consistent sans-serif typography, reduced-motion support, screen-reader text, and visible keyboard focus.
+- Consistent Arial/Helvetica typography, restrained spacing, reduced-motion support, screen-reader text, and visible keyboard focus.
 
 ## Profile data still awaiting Amin
 
