@@ -38,3 +38,6 @@ Run `npm ci` and `npm run build`. To publish a new version, copy `out/*` and `.n
 - Reframed Pursuit of 100 around roadblocks to humanity's evolution.
 - Added Ask me about it mailto actions to Outsourced Thinking and Introduction to Utility Economics; set the contact address to realaminsaifan@gmail.com.
 - Recast the screen-to-vision thesis as a positive, human-centered opportunity.
+
+- The interface accent is now cockpit cyan / blue-green on blue-black instead of phosphor green.
+

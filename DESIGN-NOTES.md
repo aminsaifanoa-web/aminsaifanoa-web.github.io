@@ -322,3 +322,9 @@ Pursuit of the Matrix").
 - Added email inquiry links for Outsourced Thinking and Introduction to Utility Economics, using the supplied contact address.
 - Reframed the About thesis as an affirmative opportunity: computing in the field of vision can extend human attention, memory, and action.
 
+
+## Revision round 13 — cockpit cyan palette
+
+- Replaced the phosphor green accent with a restrained cockpit cyan / blue-green palette across the interface, wire, controls, scrollbar, and icon.
+- Shifted the dark background tones toward blue-black and kept pale cyan text for contrast.
+
