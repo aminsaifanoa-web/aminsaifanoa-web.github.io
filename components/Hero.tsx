@@ -14,7 +14,7 @@ export default function Hero() {
         <a className="round-button" href="#projects">See projects and experience <span aria-hidden="true">↓</span></a>
       </div>
       <div className="hero-foot">
-        <span>{PROFILE.location.toUpperCase()} · ARTS &amp; SCIENCES @ UCL</span>
+        <span>{PROFILE.location.toUpperCase()} · UCL</span>
         <span className="scroll-note" aria-hidden="true">SCROLL TO FIND OUT MORE ↓</span>
       </div>
     </section>

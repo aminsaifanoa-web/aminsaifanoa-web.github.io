@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: `${PROFILE.name} — Founder and researcher`,
-  description: "Amin Saifan: Arts & Sciences student at UCL, co-founder of Illustra, and researcher of markets, utility, and technology.",
+  description: "Amin Saifan: UCL BASc student in Quantitative & Applied Economics, co-founder of Illustra, and researcher of markets, utility, and technology.",
   keywords: [
     "Amin Saifan",
     "Illustra",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: `${PROFILE.name} — Projects and research`,
-    description: "Founder at Illustra. Arts & Sciences at UCL. Research across economics, mathematics, data science, and technology.",
+    description: "Founder at Illustra. UCL BASc in Quantitative & Applied Economics. Research across economics, mathematics, data science, and technology.",
     type: "website",
   },
 };
